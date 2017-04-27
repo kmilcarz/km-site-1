@@ -1,0 +1,110 @@
+body, div
+        margin: 0
+        padding: 0
+
+// text
+
+.text-center
+        text-align: center
+
+.tex-left
+        text-align: left
+
+.text-right
+        text-align: right
+
+.text-justify
+        text-align: justify
+
+.text-inherit
+        text-align: inherit
+
+small, .small, .smaller
+        font-size: 80%
+
+bigger, .bigger
+        font-size: 120%
+
+lead, .lead
+        font-size: 105%
+
+bold, strong, .strong, .bold, bolder, .bolder
+        font-weight: bold
+
+light, lighter, .light, .lighter
+        font-weight: lighter
+
+light, lighter, .light, .lighter
+        font-weight: 100
+
+.up, .upper
+        text-transform: uppercase
+.low, .lower
+        text-transform: lowercase
+
+@media screen and (min-width: 760px)
+        .mob
+                display: none
+
+@media screen and (max-width: 760px)
+        .komp
+                display: none
+
+// hedings size
+h1, h2, h3, h4, h5, h6
+        color: #000000
+h1
+        margin: 0
+        padding: 0
+        font-size: 38px
+
+h2
+        margin: 0
+        padding: 0
+        font-size: 32px
+
+h3
+        margin: 0
+        padding: 0
+        font-size: 30px
+
+h4
+        margin: 0
+        padding: 0
+        font-size: 26px
+
+h5
+        margin: 0
+        padding: 0
+        font-size: 24px
+
+h6
+        margin: 0
+        padding: 0
+        font-size: 20px
+
+// images
+
+.img-center
+        display: block
+        margin-left: auto
+        margin-right: auto
+
+.img-circle
+        border-radius: 100%
+
+.img-rounded
+        border-radius: 50%
+
+// links
+a
+        text-decoration: none
+        color: $link !important
+        &:hover, &:focus, &:active
+                text-decoration: underline
+                color: $link !important
+
+// colors
+
+.red
+        color: $softred

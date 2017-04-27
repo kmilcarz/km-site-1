@@ -1,0 +1,70 @@
+nav
+        background: $softred
+        transform: rotate(-0.5deg)
+.navbar
+        z-index: 100000
+        background: $softred
+        height: 100px
+        width: 100%
+        margin-top: -13px
+        *
+                transform: rotate(0.5deg)
+.logo
+        float: left
+        font-weight: 800
+        color: #fff
+        padding-top: 15px
+        padding-left: 15px
+
+.img-hamb
+        padding-top: 40px
+        padding-right: 15px
+        float: right
+        width: 45px
+
+.nav
+        padding-top: 43px
+        display: flex
+        justify-content: flex-end
+        a#nav-links
+                color: #ffffff !important
+                padding-left: 15px
+                padding-right: 15px
+                &:hover
+                        text-decoration: none
+                        color: #fa9f8e !important
+@media screen and (min-width: 760px)
+        .mobnav
+                background: rgba(255, 255, 255, 0)
+
+@media screen and (max-width: 760px)
+        .mobnav
+                display: flex
+                justify-content: center
+                margin-top: 50px
+                margin-left: -2px
+                padding-top: 10px
+                font-size: 30px
+                background: rgba($softred, 0.95)
+                ul
+                        transform: rotate(-0.5deg)
+                        list-style-type: none
+                        text-align: center
+                        color: #000000 !important
+                        li
+                                padding-top: 15px
+                                &:last-child
+                                        padding-bottom: 50px
+                        a
+
+                                color: #ffffff !important
+                                &:hover
+                                        text-decoration: none
+                                        color: #fa9f8e !important
+.hide
+        display: none
+.show
+        display: flex
+
+#hamburger-click:hover
+        cursor: pointer

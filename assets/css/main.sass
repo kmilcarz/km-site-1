@@ -1,0 +1,37 @@
+// KM starter Kit in Jade and Sass
+// version: 1.0
+// author: Jakub Milcarz
+// website: http://www.kubamilcarz.pl
+
+// Remember to keep all the files in order and try to divide css to smaller elements/files.
+
+
+// Variables must be defined first!
+@import 2-base/vars
+@import 4-modules/keyframes
+//1-tools (fundations of KM starter Kit)
+@import 1-tools/normalize
+@import 1-tools/bourbon/bourbon
+
+//2-base (fonts, variables etc.)
+@import 2-base/base
+@import 2-base/fonts
+
+//3-frameworks
+@import "3-frameworks/_bootstrap"
+
+
+//4-modules (modules of Your site)
+@import 4-modules/nav
+//5-layouts (layouts of Your site)
+@import 5-layouts/start
+
+//6-fontello
+@import 6-fontello/fontello
+
+
+body
+        margin: 0
+        padding: 0
+        font-family: 'Montserrat' sans-serif
+        font-weight: 200
